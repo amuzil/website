@@ -1,4 +1,4 @@
-# website
+# Amuzil website
 
 ## Project setup
 ```

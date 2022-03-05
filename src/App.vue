@@ -1,16 +1,18 @@
 <template>
-	<img alt="Amuzil logo" src="./assets/amuzil400x400.png">
-	<HelloWorld msg="Welcome to Our Brand New Website"/>
+	<img alt="Vue logo" src="./assets/amuzil400x400.png">
+	<HelloWorld msg="Welcome to Our Brand New Site"/>
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
+<script lang="ts">
+import {Options, Vue} from 'vue-class-component';
+import HelloWorld from './components/HelloWorld.vue';
 
-export default {
-	name: 'App',
+@Options({
 	components: {
-		HelloWorld
-	}
+		HelloWorld,
+	},
+})
+export default class App extends Vue {
 }
 </script>
 
