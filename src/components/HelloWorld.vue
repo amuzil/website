@@ -1,9 +1,8 @@
 <template>
 	<div class="hello">
 		<h1>{{ msg }}</h1>
-		<p>
-			More information to come soon.
-		</p>
+		<p>More information to come soon.</p>
+		<a href="//docs.amuzil.com">Read the docs »</a>
 	</div>
 </template>
 
